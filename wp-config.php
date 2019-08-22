@@ -26,7 +26,9 @@ define('DB_NAME', 'wp_48months');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+
+
+define('DB_PASSWORD', '6+;dMEtJ{M8b');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
