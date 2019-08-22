@@ -1,0 +1,263 @@
+.wpb_el_type_rella_attach_image .gallery_widget_add_images {
+    margin-top: 0;
+    display: block;
+    float: left;
+    height: 80px;
+    width: 80px;
+    background: url(../img/add.png) center center no-repeat #F5F5F5;
+    border: 1px solid #DFDFDF;
+    font-size: 0;
+    color: #F5F5F5;
+}
+.wpb_el_type_rella_attach_image .vc_icon-remove .vc-composer-icon {
+    font-size: 18px;
+    color: #FF7877;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.wpb_el_type_fws_image .vc_icon-remove {
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+/**
+ * Element Icons
+ */
+
+.vc_element-icon.fa {
+	background-image: none;
+	text-align: center;
+	line-height: 32px;
+	font-size: 14px;
+	border-radius: 32px;
+	color: #fff;
+	background: #4396ff;
+}
+
+.wpb_el_type_subheading {
+	margin: 2em 15px 1em;
+	padding: 11px 15px !important;
+	background-color: #f1f1f1;
+}
+.vc_edit-form-tab .wpb_el_type_subheading:first-child {
+	margin-top: 0;
+}
+
+.wpb_el_type_subheading .edit_form_line:blank {
+	display: none;
+}
+.wpb_el_type_subheading .wpb_element_label {
+	font-size: 15px;
+	color: #555;
+	margin: 0;
+}
+.wpb_el_type_subheading .vc_description {
+	color: #fff;
+	font-size: 13px;
+	letter-spacing: 0.04em;
+	font-style: normal;
+	margin-top: 5px;
+}
+
+/**
+ * Nested Shortcodes
+ */
+.rella-content-holder {
+	background: #d5d5d5;
+	border-radius: 3px;
+}
+.rella-content-holder > .wpb_element_wrapper > .vc_container_for_children{
+	margin: 0 10px;
+	outline: 0;
+	padding: 10px 0;
+}
+.rella-content-holder >.vc_controls {
+    opacity: 1!important;
+    filter: alpha(opacity=100)!important;
+    visibility: visible;
+    position: relative;
+    height: 23px;
+    margin: 30px 0 2px;
+    border-bottom-width: 0
+}
+.rella-content-holder .vc_controls-content-widget {
+	background: #4396ff;
+}
+.rella-param-holder {
+	padding: 5px;
+}
+.rella-param-holder .vc_admin_label {
+	color: #222;
+}
+.rella-content-holder .rella-content-holder {
+	background: #dedede;
+}
+
+
+/**
+ * Accordion and Tab
+ */
+
+.wpb_ra_tabs > .vc_controls,
+.wpb_ra_flipbox > .vc_controls {
+    opacity: 1!important;
+    filter: alpha(opacity=100)!important;
+    visibility: visible;
+    position: relative;
+    height: 23px;
+    margin: 23px 0 2px;
+    border: 1px dotted #e6e6e6;
+    border-bottom-width: 0;
+	right: auto !important;
+}
+.wpb_ra_tabs > .vc_controls .vc_controls-cc,
+.wpb_ra_flipbox > .vc_controls .vc_controls-cc {
+	margin-top: -11px;
+	background: #285A85;
+	border-color: #285A85;
+}
+.wpb_ra_tabs.wpb_content_element .wpb_element_wrapper,
+.wpb_ra_flipbox.wpb_content_element .wpb_element_wrapper {
+	background: transparent;
+	padding: 0;
+	border: 0;
+}
+.wpb_ra_tabs.wpb_content_element .wpb_element_wrapper .vc_tta-container,
+.wpb_ra_flipbox.wpb_content_element .wpb_element_wrapper .vc_tta-container {
+	margin-top: 5px;
+}
+.wpb_ra_tabs.vc_shortcodes_container > .wpb_element_wrapper > .vc_container_for_children,
+.wpb_ra_flipbox.vc_shortcodes_container > .wpb_element_wrapper > .vc_container_for_children {
+    margin: 0;
+    outline: 0
+}
+.wpb_ra_tabs .vc_tta-tabs-list li,
+.wpb_ra_flipbox .vc_tta-tabs-list li {
+    vertical-align: top
+}
+.wpb_ra_tabs .wpb_vc_tta_section>.wpb_element_wrapper>.vc_tta-panel-body>.vc_controls,
+.wpb_ra_flipbox .wpb_vc_tta_section>.wpb_element_wrapper>.vc_tta-panel-body>.vc_controls {
+    margin-top: -5px
+}
+.wpb_ra_tabs .vc_tta.vc_general .vc_tta-tab>a,
+.wpb_ra_flipbox .vc_tta.vc_general .vc_tta-tab>a {
+    padding: 10px 14px
+}
+.wpb_ra_tabs .vc_tta.vc_general .wpb_vc_tta_section.vc_tta-panel,
+.wpb_ra_flipbox .vc_tta.vc_general .wpb_vc_tta_section.vc_tta-panel {
+    display: none
+}
+.wpb_ra_tabs .vc_tta.vc_general .wpb_vc_tta_section.vc_tta-panel.vc_active,
+.wpb_ra_flipbox .vc_tta.vc_general .wpb_vc_tta_section.vc_tta-panel.vc_active {
+    display: block
+}
+
+.wpb_ra_flipbox .vc_tta-section-append,
+.wpb_ra_flipbox .wpb_vc_tta_section>.wpb_element_wrapper>.vc_tta-panel-body>.vc_controls {
+	display: none !important;
+}
+
+/* Controls */
+.vc_color-picker .wp-picker-holder {
+	position: absolute;
+}
+.icon-boo {
+	background: url(../img/logo.png) no-repeat center;
+	background-size: cover;
+}
+
+
+.ics-ge-container {
+	border: 1px solid #e5e5e5;
+}
+.ics-ge-preview-panel, .ics-ge-background-options-inputs-toggle {
+	padding: 10px !important
+}
+.ics-ge-background-options {
+	max-height: 43px;
+}
+
+.shortcode-preview {
+	text-align: center;
+}
+.shortcode-preview img {
+	width: 200px;
+	height: auto;
+	max-width: 100%;
+	padding: 10px;
+}
+
+/* Gradient Picker */
+.rella-gradient .sp-container .sp-picker-container {
+	margin-bottom: 0;
+}
+.rella-gradient .sp-container.sp-input-disabled .sp-input-container {
+	display: block;
+}
+
+/* Remove extra field from css editor in button sc */
+[data-vc-shortcode="ra_button"] .vc_col-xs-5.vc_settings,
+[data-vc-shortcode-param-name="ib_css"] .vc_col-xs-5.vc_settings{
+	display: none !important;
+}
+
+[data-vc-shortcode="ra_button"] .vc_layout-onion,
+[data-vc-shortcode-param-name="ib_css"] .vc_layout-onion {
+	margin: 0 auto !important;
+}
+.vc_ui-panel .rella-easy-mode-switch {
+	display: none;
+}
+.vc_ui-panel[data-vc-shortcode^="ra_"] .rella-easy-mode-switch {
+	display: inline-block;
+}
+.wpb_el_type_rella_advanced_checkbox {
+	visibility: hidden;
+	height: 0px;
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}

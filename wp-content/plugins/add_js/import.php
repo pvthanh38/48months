@@ -1,0 +1,1 @@
+<?phpadd_menu_page('Page title', 'Top-level menu title', 'manage_options', 'my-top-level-handle', 'my_magic_function');?>

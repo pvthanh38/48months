@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpFastCache/phpFastCache": "^6.0",
+        "leafo/scssphp": "^0.6.7"
+    }
+}

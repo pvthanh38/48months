@@ -1,0 +1,548 @@
+.eat-admin-theme-custom-login-wrap {
+	height: 110vh;
+	position: relative;
+}
+.eat-admin-theme-custom-login-wrap #login {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	top: 50%;
+	transform: translatey(-50%);
+	-webkit-transform: translatey(-50%);
+	-ms-transform: translatey(-50%);
+}
+.eat-admin-theme-custom-login-wrap.login-form-template #login form {
+	background: transparent;
+	padding: 0;
+	box-shadow: none;
+	margin-top: 0;
+}
+.login h1 a {
+    background-repeat: no-repeat;
+    background-position: center center !important;
+}
+.eat-admin-theme-custom-login-wrap.login-form-template .button-primary {
+	text-shadow: none;
+	box-shadow: none;
+	outline: none;
+}
+a {
+	transition: all ease 0.3s;
+	-webkit-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	outline: 0 !important;
+	box-shadow: none;
+}
+a:focus,
+a:hover,
+a:active {
+    outline: 0 !important;
+    box-shadow: none;
+}
+br.clear {
+	display: none;
+}
+.eat-admin-theme-custom-login-wrap input:-webkit-autofill, 
+.eat-admin-theme-custom-login-wrap textarea:-webkit-autofill, 
+.eat-admin-theme-custom-login-wrap select:-webkit-autofil {
+	background: transparent;
+}
+#login p.submit input{
+	text-shadow: none;
+}
+.forgetmenot{
+	position: relative;
+	width: 100%;
+	display: block;
+}
+@-webkit-keyframes autofill {
+    to {
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+@-webkit-keyframes autofillone {
+    to {
+    	color: #29dfea;
+        background: transparent;
+    }
+}
+.login-form-template-1 input:-webkit-autofill {
+    -webkit-animation-name: autofillone;
+    -webkit-animation-fill-mode: both;
+}
+@-webkit-keyframes autofilltwo {
+    to {
+    	color: #FFF;
+        background: transparent;
+    }
+}
+.login-form-template-2 input:-webkit-autofill {
+    -webkit-animation-name: autofilltwo;
+    -webkit-animation-fill-mode: both;
+}
+@-webkit-keyframes autofillfour {
+    to {
+    	color: #7d4d76;
+        background: transparent;
+    }
+}
+/*===============================================
+login-form-default-template
+===============================================*/
+.login .eat-admin-theme-custom-login-wrap.login-form-default  #login form{
+	background: #FFF;
+	padding: 20px;
+} 		
+.login-form-default #login p.submit input[type="submit"]{
+	background: #0085ba !important;
+}
+/*==============================================
+login-form-template-1
+==============================================*/
+.login-form-template-1{
+	background: url(../images/login-form/login-bg/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top left;
+	height: 120vh;
+}
+.login-form-template-1 #login {
+	background: rgb(49,68,72);
+	background: -moz-linear-gradient(top, rgba(49,68,72,1) 0%, rgba(76,105,109,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(49,68,72,1) 0%,rgba(76,105,109,1) 100%);
+	background: linear-gradient(to bottom, rgba(49,68,72,1) 0%,rgba(76,105,109,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#314448', endColorstr='#4c696d',GradientType=0 );
+	padding: 25px;
+	width: 320px;
+	padding-top: 80px;
+	border-radius: 20px;
+}
+.login-form-template-1 #login h1 {
+	position: absolute;
+    top: -35px;
+    width: 90px;
+    height: 90px;
+    border: 3px solid #29dfea;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    overflow: hidden;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.51);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.51);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.51);
+}
+.login-form-template-1 #login {
+	text-align: center;
+	color: #fff;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.51);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.51);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.51);
+}
+.login .login-form-template-1 h1 a{
+	width: 90px;
+	height: 90px;
+	background-size: 90px;
+	margin: 0px auto;
+	background-position: 50%;
+}
+.login-form-template-1 #login label {
+	color: #fff;
+	font-size: 15px;
+}
+.login-form-template-1 #login label input[type="text"],
+.login-form-template-1 #login label input[type="password"],
+.login-form-template-1 #login label input[type="email"] {
+	background: transparent;
+    color: #29dfea;
+    border: 1px solid #29dfea;
+    border-radius: 50px;
+    margin-top: 15px;
+    font-size: 16px;
+    height: 53px;
+    padding: 12px 20px 15px;
+    text-align: center;
+}
+.login-form-template-1 #login p {
+	line-height: 10px;
+	margin-bottom: 10px;
+}
+.login-form-template-1 #login p.forgetmenot {
+	float: none;
+}
+.login-form-template-1 #login p.submit,
+.login-form-template-1 #login p.submit input {
+	width: 100%; 
+}
+.login-form-template-1 #login p.submit input {
+	background: rgb(50,221,229);
+	background: -moz-linear-gradient(top, rgba(50,221,229,1) 0%, rgba(46,247,230,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(50,221,229,1) 0%,rgba(46,247,230,1) 100%);
+	background: linear-gradient(to bottom, rgba(50,221,229,1) 0%,rgba(46,247,230,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32dde5', endColorstr='#2ef7e6',GradientType=0 );
+	color: #fff;
+    font-size: 17px;
+    border: none;
+    padding: 10px;
+    height: auto;
+    font-weight: 600;
+    margin-top: 15px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -ms-border-radius: 50px;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;	
+    text-shadow: none;
+}
+.login-form-template-1 #login p.submit input:hover {
+	background: rgb(50,221,229);
+	background: -moz-linear-gradient(top, rgba(50,221,229,0.8) 0%, rgba(46,247,230,0.9) 100%);
+	background: -webkit-linear-gradient(top, rgba(50,221,229,0.8) 0%,rgba(46,247,230,0.6) 100%);
+	background: linear-gradient(to bottom, rgba(50,221,229,0.8) 0%,rgba(46,247,230,0.6) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32dde5', endColorstr='#2ef7e6',GradientType=0 );
+}
+.login-form-template-1 #login label input[type="checkbox"] {
+	background: transparent;
+    color: #29dfea;
+    border: 1px solid #29dfea;
+    height: 20px;
+    width: 20px;
+    position: relative;
+}
+.login-form-template-1 #login label input[type="checkbox"]:before {
+	position: absolute;
+    left: -2px;
+    top: -2px;
+    margin: 0;
+}
+.login-form-template-1 #login p#nav a,
+.login-form-template-1 #login p#backtoblog a {
+	color: #fff;
+	padding: 0 10px;
+}
+.login-form-template-1 #login p#nav a:hover,
+.login-form-template-1 #login p#backtoblog a:hover {
+	color: #29dfea;
+}
+.login-form-template-1 #login p#backtoblog {
+	margin-top: 25px;
+    border-top: 1px solid #7cb9bd;
+    padding-top: 20px;
+}
+.login-form-template-1 #login p.message {
+	background: rgba(41, 223, 234, 0.2);
+	border: 1px solid rgba(41, 223, 234, 1);
+	text-align: center;
+	line-height: 20px;
+	margin-bottom: 30px;
+	border-radius: 50px;
+	padding: 10px 30px;
+}
+.login .login-form-template-1 #login_error{
+	border: solid 2px red;
+	border-radius: 25px;
+	color: #FF0000;
+}
+.login .login-form-template-1 #login_error a{
+	color: #29dfea;
+}
+.login-form-template-1 #login .forgetmenot label {
+	color: transparent !important;
+	margin: auto;
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 29%;
+	background: #fcfff4;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fcfff4), color-stop(40%, #dfe5d7), to(#b3bead));
+	background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	border-radius: 12px;
+	-webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.login-form-template-1 #login .forgetmenot label:before{
+	content: "Remember Me";
+	color: #FFF;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 16px;
+	margin-left: 5px;
+	min-width: 150px !important;
+}
+.login-form-template-1 #login .forgetmenot label:after {
+	content: '';
+	width: 9px;
+	height: 5px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	border: 3px solid #333;
+	border-top: none;
+	border-right: none;
+	background: transparent;
+	opacity: 0;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	transition: ease-in-out 0.2s;
+}
+.login-form-template-1 #login .forgetmenot label:hover::after {
+  opacity: 0.5;
+}
+.login-form-template-1 #login .forgetmenot input[type=checkbox] {
+  visibility: hidden;
+}
+.login-form-template-1 #login .forgetmenot input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+/*==============================================
+login-form-template-2
+==============================================*/
+.login-form-template-2{
+	background: url(../images/login-form/login-bg/background-login-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top left;
+}
+.login-form-template-2 #login{
+	background: rgba(255,255,255,0.6);	
+	max-width: 320px;
+	width: 100%;
+	padding: 40px 40px 20px;
+	box-shadow: 10px 0 50px rgba(0,0,0,0.5);
+	border-radius: 2px;
+}
+.login-form-template-2 #login:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: rgba(102, 36, 251, 0.4);
+	background: -moz-linear-gradient(45deg, rgba(102, 36, 251, 0.3) 0%, rgba(252, 13, 27, 0.3) 64%, rgba(252, 108, 33, 0.3) 100%);
+	background: -webkit-linear-gradient(45deg, rgba(102, 36, 251, 0.3) 0%,rgba(252, 13, 27, 0.3) 64%, rgba(252, 108, 33, 0.3) 100%);
+	background: linear-gradient(45deg, rgba(102, 36, 251, 0.3) 0%,rgba(252, 13, 27, 0.3) 64%, rgba(252, 108, 33, 0.3) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(102, 36, 251, 0.3)', endColorstr='rgba(252, 108, 33, 0.3)',GradientType=1 );
+	z-index: -1;
+	border-radius: 2px;
+}
+.login-form-template-2 #login h1 {
+	width: 120px;
+	height: 120px;
+	margin: 0 auto 30px; 
+}
+.login-form-template-2 #login h1 a{
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	background-size: 120px;
+}
+.login-form-template-2 #login label {
+	color: #fff;
+	font-size: 15px;
+}
+.login-form-template-2 #login label input[type="text"],
+.login-form-template-2 #login label input[type="password"],
+.login-form-template-2 #login label input[type="email"],
+.login-form-template-2 #login label input[type="checkbox"] {
+	background: transparent;
+	color: #FFF;
+    font-size: 16px;
+    padding: 10px 0px;
+    height: auto;
+    font-weight: 500;
+    margin-top: 10px;
+    border: 0px;
+    outline: 0px;
+    box-shadow: none;
+    border-bottom: solid 1px rgba(255,255,255, 0.5);
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+.login-form-template-2 #login label input[type="checkbox"] {
+	height: 16px;
+	width: 10px;
+	margin-top: -2px;
+}
+.login-form-template-2 #login p.forgetmenot {
+	float: none;
+	margin-bottom: 25px;
+}
+.login-form-template-2 #login label #rememberme{
+	margin: 12px auto 15px;
+}
+.login-form-template-2 #login p.submit input[type="submit"] {
+	width: 100%;
+    background: #de6262;
+    box-shadow: none;
+    text-shadow: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    height: auto;
+    padding: 10px 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    transition: all ease 0.5s;
+    -wekit-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    border: 1px solid #de6262;
+    font-weight: 600;
+    margin: 20px auto;
+}
+.login-form-template-2 #login p.submit input[type="submit"]:hover {
+	border: 1px solid #fff;
+	background: none;
+}
+.login-form-template-2 #login p#nav,
+.login-form-template-2 #login p#backtoblog,
+.login-form-template-2 #login p#reg_passmail {
+	padding: 0;
+	color: #fff;
+}
+.login-form-template-2 #login p#nav,
+.login-form-template-2 #login p#backtoblog{
+	display: inline-block;
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+}
+.login-form-template-2 #login p#nav{
+	padding: 10px 0px;
+}
+.login-form-template-2 #login p#nav a{
+	font-size: 14px;
+	padding: 10px 20px 12px;
+	background: rgba(255,255,255,1);
+	color: #de6262;
+	border: solid 1px #FFF;
+	border-radius: 3px;
+}
+.login-form-template-2 #login p#nav a:hover{
+	background: rgba(255,255,255,0.9);
+	border: solid 1px #de6262;
+	border-radius: 3px;
+}
+.login-form-template-2 #login p#backtoblog{
+	text-align: left;
+	padding: 15px 0 0;
+}
+.login-form-template-2 #login p#reg_passmail {
+	margin-bottom: 15px;
+}
+.login-form-template-2 #login p.message {
+	background: rgba(255,255,255,0.4);
+	color: #fff;
+	border-left: 4px solid #de6262;
+	font-size: 15px;
+}
+.login-form-template-2 #login p#backtoblog a{
+	color: #FFF;
+}
+.login-form-template-2 #login input::-moz-placeholder{
+	color: #fff;
+}
+.login-form-template-2 #login input::-webkit-input-placeholder {
+	color: #fff;
+}
+.login-form-template-2 #login input:-ms-input-placeholder {
+	color: #fff;
+}
+.login-form-template-2 #login input:-moz-placeholder {
+	color: #fff;
+}
+.login-form-template-2 #login .remem-ext-cls,
+.login-form-template-2 #login .lst-pswd{
+	display: inline-block;
+}
+.login-form-template-2 #login .lst-pswd{
+	padding-top: 8px;
+}
+.login-form-template-2 #login .lst-pswd a{
+	font-size: 15px;
+	color: #FFF;
+}
+.login-form-template-2 #login .remem-field{
+	position: relative;
+	display: block;
+	width: 100%;
+}
+.login-form-template-2 #login .remem-field label{
+	position: relative;
+	padding-left: 5px;
+}
+.login-form-template-2 #login .remem-field label:before {
+	content: "";
+	position: absolute;
+	left: -19px;
+	top: 2px;
+	display: block !important;
+	color: #707070 !important;
+	margin: -1px 0px 0;
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+	background: transparent;
+	border: solid 1px rgba(255,255,255,0.7);
+	border-radius: 0px;
+}
+.login-form-template-2 #login .remem-field label:after {
+	content: '';
+	width: 9px;
+	height: 5px;
+	position: absolute;
+	top: 6px;
+	left: -15px;
+	border: 2px solid #FFF;
+	border-top: none;
+	border-right: none;
+	background: transparent;
+	opacity: 0;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	transition: ease-in-out 0.1s;
+}
+.login-form-template-2 #login .remem-field label:hover::after {
+  opacity: 0;
+}
+.login-form-template-2 #login .remem-field input[type=checkbox] {
+  visibility: hidden;
+}
+.login-form-template-2 #login .remem-field input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1300px){
+	.login-form-template-1{
+		height: 150vh;
+	}
+	.login-form-template-2{
+		height: 120vh;
+	}
+}
+@media only screen and (max-width: 960px){
+	.login-form-template-2{
+		height: 130vh;
+	}
+}
+.login .eat-admin-theme-custom-login-wrap #login form {
+    background: transparent;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: none;
+}

@@ -1,0 +1,141 @@
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <nav class="col-7 footer-nav">
+                <?php wp_nav_menu(
+                    array(
+                        'theme_location' => 'footer-menu',
+                        'container' => 'false',
+                        'menu_id' => 'menu-footer-menu',
+                        'menu_class' => 'footer_menu'
+                    )
+                );
+                $server_info = get_field('server_info', 'option');
+                ?>
+                <div class="server-info"><?php echo $server_info; ?></div>
+            </nav>
+
+            <div class="col-5">
+                <?php echo do_shortcode('[mc4wp_form id="1426"]'); ?>
+                <?php
+                    $title_social = get_field('title_social', 'option');
+                    $facebook = get_field('facebook', 'option');
+                    $twitter = get_field('twitter', 'option');
+                    $youtube = get_field('youtube', 'option');
+                    $instagram = get_field('instagram', 'option');
+                ?>
+                <div class="footer-social"> <span><?php echo $title_social; ?></span>
+                    <a target="_blank" href="<?php echo $facebook; ?>" title="Facebook"><i class="flaticon-facebook-logo-button"></i></a>
+                    <a target="_blank" href="<?php echo $twitter; ?>" title="Twitter"><i class="flaticon-twitter-logo-button"></i></a>
+                    <a target="_blank" href="<?php echo $youtube; ?>" title="Youtube"><i class="flaticon-youtube-symbol"></i></a>
+                    <a target="_blank" href="<?php echo $instagram; ?>" title="Instagram"><i class="flaticon-instagram-logo"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="quiz-model"><span class="model-close"><i class="flaticon-letter-x"></i></span>
+    <h3>Governance Quiz</h3>
+    <p>What has the Government done for citizens like you? What is the progress across various sectors? What is the impact of various Governance Initiatives? Take this informative &amp; interactive Quiz to get acquainted with the Transformation led by the Government in the last 48 months! </p>
+    <a target="_blank" href="https://quiz.mygov.in/login/?action=wordpress_social_authenticate&amp;mode=login&amp;provider=MyGov&amp;redirect_to=https://quiz.mygov.in/quiz/governance-quiz-48months/" class="quiz-btn">Participate Now</a>
+</div>
+<div class="pop_overlay"></div>
+<script>
+/*
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('sw.js').then(function(registration) {
+                // Registration was successful
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function(err) {
+                // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+$('a[href*="#"]:not([href="#"]):not([href="#show"]):not([href="#hide"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+            $('html,body').animate({
+                scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+});*/
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-119464967-1');
+</script>
+
+<script type="text/javascript" src="<?php echo get_site_url(); ?>/files/owl.carousel.min.js"></script>
+<script type="text/javascript" src="<?php echo get_site_url(); ?>/files/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="<?php echo get_site_url(); ?>/files/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="<?php echo get_site_url(); ?>/files/waypoints.min.js"></script>
+<script type="text/javascript" src="<?php echo get_site_url(); ?>/files/jquery.counterup.min.js"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var Ajax48Months = {"ajax_url":"https:\/\/48months.mygov.in\/wp-admin\/admin-ajax.php"};
+    /* ]]> */
+</script>
+<script type="text/javascript" src="<?php echo get_site_url(); ?>/files/custom.js"></script>
+<script type="text/javascript" src="<?php echo get_site_url(); ?>/files/socialshare.js"></script>
+<script type="text/javascript" src="<?php echo get_site_url(); ?>/files/wp-embed.min.js"></script>
+
+
+
+<!-- Mirrored from 48months.mygov.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Jun 2019 06:44:17 GMT -->
+
+
+<!-- Dynamic page generated in 0.504 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2019-06-21 12:00:44 -->
+
+<!-- super cache -->
+<div id="lbdictex_find_popup" class="lbexpopup hidden" style="position: absolute; top: 0px; left: 0px;">
+    <div class="lbexpopup_top">
+        <h2 class="fl popup_title">&nbsp;</h2>
+        <ul>
+            <li><a class="close_main popup_close" href="https://www.mygov.in/48months/index.html#">&nbsp;</a></li>
+        </ul>
+        <div class="clr"></div>
+    </div>
+    <div class="popup_details"></div>
+    
+</div>
+<div id="lbdictex_ask_mark" class="hidden" style="position: absolute; top: 0px; left: 0px;">
+    <a class="lbdictex_ask_select" href="https://www.mygov.in/48months/index.html#">&nbsp;</a>
+</div>
+</body>
+<?php if(is_user_logged_in()){ ?>
+<style>
+
+<?php if( !is_front_page()){ ?>
+.admin-bar .header{top: 32px !important;}
+.admin-bar .main{margin-top: 0px !important;}
+@media (min-width: 320px) and (max-width: 480px) {
+  .admin-bar .main{margin-top: -32px !important;}
+  #wpadminbar {position: fixed !important;;}
+}
+
+<?php }else{ ?>
+.header{    bottom: -32px !important;}
+.admin-bar .header.fixed{top: 32px !important;}
+@media (min-width: 320px) and (max-width: 480px) {
+	.admin-bar .header{top: 43px !important;}
+  
+  #wpadminbar {position: fixed !important;;}
+}
+<?php } ?>
+</style>
+<?php } ?>
+</html>

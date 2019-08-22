@@ -1,0 +1,330 @@
+Aug 30 2018 01:45:59
+{"Number":8,"Message":"Ai1wm_Database_Utility::replace_serialized_values(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;WC_Shipping_Rate&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition","File":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\database\\class-ai1wm-database-utility.php","Line":74}
+
+Aug 30 2018 01:45:59
+{"Number":8,"Message":"Ai1wm_Database_Utility::replace_serialized_values(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;WC_Shipping_Rate&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition","File":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\database\\class-ai1wm-database-utility.php","Line":74}
+
+Aug 30 2018 01:45:59
+{"Number":8,"Message":"Ai1wm_Database_Utility::replace_serialized_values(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;WC_Shipping_Rate&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition","File":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\database\\class-ai1wm-database-utility.php","Line":74}
+
+Aug 30 2018 01:46:01
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:01
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:03
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:05
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:07
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:09
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:11
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:13
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:15
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:17
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:19
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:21
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:22
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:24
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:26
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:28
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:30
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:32
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:34
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:36
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:38
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:40
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:42
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:44
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:46
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:48
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:49
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:51
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:53
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:55
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:57
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:53:59
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:01
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:02
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:04
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:06
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:08
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:10
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:12
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:13
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:15
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:17
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:19
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:21
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:23
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:25
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:27
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:29
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:30
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:32
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:34
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:36
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:38
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:40
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:42
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:44
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:46
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:48
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:49
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:51
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:53
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:54:55
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:55:31
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:55:33
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:55:45
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:55:48
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:55:59
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Aug 31 2018 02:56:00
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Sep 19 2018 02:36:57
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":139}
+
+Sep 19 2018 02:37:00
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":139}
+
+Sep 19 2018 02:37:02
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":139}
+
+Sep 19 2018 02:37:08
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":139}
+
+Sep 19 2018 02:37:10
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":139}
+
+Sep 19 2018 02:37:14
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":139}
+
+Sep 19 2018 02:37:17
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":139}
+
+Sep 19 2018 02:37:28
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":139}
+
+Sep 19 2018 02:37:30
+{"type":2,"message":"Use of undefined constant trur - assumed 'trur' (this will throw an Error in a future version of PHP)","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\themes\\tfot\\app\\inc\\post-types\\tax-type.php","line":24}
+
+Sep 27 2018 02:51:23
+{"type":8,"message":"session_start(): A session had already been started - ignoring","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":137}
+
+Sep 27 2018 02:51:25
+{"type":8,"message":"session_start(): A session had already been started - ignoring","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":137}
+
+Sep 27 2018 02:51:27
+{"type":8,"message":"session_start(): A session had already been started - ignoring","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":137}
+
+Sep 27 2018 02:51:30
+{"type":8,"message":"session_start(): A session had already been started - ignoring","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":137}
+
+Sep 27 2018 02:51:32
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":164}
+
+Sep 27 2018 02:51:34
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":164}
+
+Sep 27 2018 02:51:37
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":164}
+
+Sep 27 2018 02:51:44
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":164}
+
+Sep 27 2018 02:51:46
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":164}
+
+Sep 27 2018 02:51:48
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":164}
+
+Sep 27 2018 02:51:50
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":164}
+
+Sep 27 2018 02:52:02
+{"type":8,"message":"Undefined index: destination","file":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\province\\shipchung.php","line":164}
+
+Sep 27 2018 02:52:03
+{"Number":8,"Message":"Ai1wm_Database_Utility::replace_serialized_values(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;WC_Shipping_Rate&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition","File":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\database\\class-ai1wm-database-utility.php","Line":74}
+
+Sep 27 2018 02:52:03
+{"Number":8,"Message":"Ai1wm_Database_Utility::replace_serialized_values(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;WC_Shipping_Rate&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition","File":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\database\\class-ai1wm-database-utility.php","Line":74}
+
+Sep 27 2018 02:52:03
+{"Number":8,"Message":"Ai1wm_Database_Utility::replace_serialized_values(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;WC_Shipping_Rate&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition","File":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\database\\class-ai1wm-database-utility.php","Line":74}
+
+Sep 27 2018 02:52:03
+{"Number":8,"Message":"Ai1wm_Database_Utility::replace_serialized_values(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;WC_Shipping_Rate&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition","File":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\database\\class-ai1wm-database-utility.php","Line":74}
+
+Sep 27 2018 02:52:03
+{"Number":8,"Message":"Ai1wm_Database_Utility::replace_serialized_values(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;WC_Shipping_Rate&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition","File":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\database\\class-ai1wm-database-utility.php","Line":74}
+
+Sep 27 2018 02:52:03
+{"Number":8,"Message":"Ai1wm_Database_Utility::replace_serialized_values(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;WC_Shipping_Rate&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition","File":"F:\\Work\\xampp\\htdocs\\wp\\nunest1\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\database\\class-ai1wm-database-utility.php","Line":74}
+
+Jan 04 2019 03:09:37
+{"type":2,"message":"unlink(F:\\Work\\xampp\\htdocs\\wp\\wowhappykids1\/wp-content\/wflogs\/template.0667072001546571373.tmp): No such file or directory","file":"F:\\Work\\xampp\\htdocs\\wp\\wowhappykids1\\wp-content\\plugins\\wordfence\\lib\\wordfenceClass.php","line":1865}
+
+Aug 21 2019 09:26:27
+{"type":8,"message":"Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI'","file":"D:\\xampp\\htdocs\\wp\\48months\\wp-content\\themes\\vcodetheme\\functions.php","line":51}
+
+Aug 21 2019 09:26:29
+{"type":8,"message":"Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI'","file":"D:\\xampp\\htdocs\\wp\\48months\\wp-content\\themes\\vcodetheme\\functions.php","line":51}
+
+Aug 21 2019 09:26:29
+{"type":8,"message":"Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI'","file":"D:\\xampp\\htdocs\\wp\\48months\\wp-content\\themes\\vcodetheme\\functions.php","line":51}
+
+Aug 21 2019 09:26:34
+{"type":8,"message":"Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI'","file":"D:\\xampp\\htdocs\\wp\\48months\\wp-content\\themes\\vcodetheme\\functions.php","line":51}
+
+Aug 21 2019 09:26:36
+{"type":8,"message":"Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI'","file":"D:\\xampp\\htdocs\\wp\\48months\\wp-content\\themes\\vcodetheme\\functions.php","line":51}
+
+Aug 21 2019 09:26:39
+{"Number":2,"Message":"fopen(D:\\\\xampp\\\\htdocs\\\\wp\\\\48months\\\\wp-content\\\\plugins\\\\contact-form-7\\\\includes\\\\submission.php): failed to open stream: Permission denied","File":"D:\\xampp\\htdocs\\wp\\48months\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-extractor.php","Line":425}
+
+Aug 21 2019 09:26:44
+{"type":8,"message":"Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI'","file":"D:\\xampp\\htdocs\\wp\\48months\\wp-content\\themes\\vcodetheme\\functions.php","line":51}
+
+Aug 21 2019 09:26:45
+{"type":8,"message":"Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI'","file":"D:\\xampp\\htdocs\\wp\\48months\\wp-content\\themes\\vcodetheme\\functions.php","line":50}
+
+Aug 21 2019 09:26:50
+{"type":8,"message":"Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI'","file":"D:\\xampp\\htdocs\\wp\\48months\\wp-content\\themes\\vcodetheme\\functions.php","line":50}
+
+Aug 21 2019 09:26:50
+{"type":2,"message":"Invalid argument supplied for foreach()","file":"D:\\xampp\\htdocs\\wp\\48months\\wp-includes\\wp-vcd.php","line":46}
+
+Aug 21 2019 09:26:51
+{"type":8,"message":"Undefined index: dashboard","file":"D:\\xampp\\htdocs\\wp\\48months\\wp-content\\plugins\\everest-admin-theme-lite\\inc\\frontend\\admin_widgets.php","line":4}
+

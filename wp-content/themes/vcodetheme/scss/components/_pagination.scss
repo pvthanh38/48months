@@ -1,0 +1,32 @@
+.vtm-pagination li a,
+.vtm-pagination li a:hover,
+.vtm-pagination li.active a,
+.vtm-pagination li.disabled {
+  color: #fff;
+  text-decoration:none;
+}
+
+.vtm-pagination li {
+  display: inline;
+}
+
+.vtm-pagination li a,
+.vtm-pagination li a:hover,
+.vtm-pagination li.active a,
+.vtm-pagination li.disabled {
+  background-color: #000;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0.75rem;
+}
+
+.vtm-pagination li a:hover,
+.vtm-pagination li.active a {
+  background-color: #000;
+}
+
+.vtm-pagination{
+  ul{
+    padding-left: 0;
+  }
+}

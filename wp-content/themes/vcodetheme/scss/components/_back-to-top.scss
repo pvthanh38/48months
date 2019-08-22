@@ -1,0 +1,15 @@
+.back-to-top{
+  bottom: 10px;
+  cursor: pointer;
+  height: 62px;
+  position: fixed;
+  right: 15px;
+  width: 58px;
+  color: #fff;
+  z-index: 9999;
+  font-size: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 57px;
+  background-color: $color_1;
+}

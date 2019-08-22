@@ -1,0 +1,450 @@
+
+/*extra style to overide*/
+.media-router > a{
+	padding: 8px 10px 27px;
+}
+.eat-body-class-wrap .form-field input[type="text"], .eat-body-class-wrap .form-field input[type="password"], .eat-body-class-wrap .form-field input[type="email"], .eat-body-class-wrap .form-field input[type="number"], .eat-body-class-wrap .form-field input[type="search"], .eat-body-class-wrap .form-field input[type="tel"], .eat-body-class-wrap .form-field input[type="url"], .eat-body-class-wrap .form-field textarea, .eat-body-class-wrap .search-form input[type="search"]{
+	height: 38px !important;
+}
+
+#wp-admin-bar-root-default li.menupop div.ab-sub-wrapper{
+	min-width: 200px;
+	visibility: hidden;
+	opacity: 0;
+	transition: ease-in 0.3s;
+}
+#wp-admin-bar-root-default li.menupop:hover div.ab-sub-wrapper{
+	opacity: 1;
+	visibility: visible;
+	margin-top: 0px;
+}
+.eat-image-preview img{
+	max-width: 300px;
+	margin: -15px auto 30px;
+	display: block;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-wordpress-default-text-editor{
+	width: 100%;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap input{
+	border: solid 1px #ccc;
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-settings-submit input.eat-button{
+	padding: 10px;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu a{
+	padding: 10px 20px !important;
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header ul.eat-tabs-wrap li{
+	padding: 16px 30px;
+	font-size: 13px;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-tab-content-header-title{
+	font-size: 24px;
+	padding-bottom: 4px;
+}
+.eat-admin-main-wrapper .eat-header-wrapper .eat-headerlogo span.eat-headerlogo{
+	font-size: 30px;
+	font-weight: 600;
+}
+.eat-menu-manager-wrap .eat-submit-button{
+	width: 100%;
+	text-align: center;
+}
+.auto-fold ul#adminmenu li:hover a.wp-has-current-submenu::after{
+	display: none;
+}
+.folded #adminmenu a.menu-top {
+    height: 45px;
+}
+.community-events-form .regular-text{
+	height: 40px;
+}
+.community-events-form label{
+	height: 40px;
+	line-height: 40px;
+}
+#dashboard-widgets .community-events-cancel.button-link{
+	height: 40px;
+	line-height: 35px;
+}
+.eat-admin-main-wrapper{
+	margin-top: 20px;
+}
+
+#adminmenu a.menu-top:focus + .wp-submenu, .js #adminmenu .opensub .wp-submenu, .js #adminmenu .sub-open, .no-js li.wp-has-submenu:hover .wp-submenu{
+	top: 0px !important;
+}
+
+
+/*style ends here*/
+
+@media only screen and (max-width: 1200px){
+	#collapse-menu{
+		display: none;
+	}
+	
+}
+@media only screen and (max-width: 960px) and (min-width: 768px){
+	#wp-admin-bar-my-account.with-avatar > .ab-item{
+		visibility: collapse;
+	}
+	#wp-admin-bar-my-account.with-avatar > .ab-item img{
+		visibility: visible;
+	}
+	.auto-fold #adminmenu{
+		width: 50px !important;
+	}
+	.auto-fold #wpcontent{
+		margin-left: 50px;
+	}
+	.auto-fold #wpadminbar{
+		position: fixed;
+		top: 0;
+		width: 100%;
+		left: 0;
+	}
+	.auto-fold #wpwrap{
+		margin-top: 30px;
+	}
+	.auto-fold #adminmenuwrap{
+		width: 50px;
+	}
+	.auto-fold #adminmenuback{
+		width: 50px;
+	}
+	.auto-fold #adminmenu li.menu-top{
+		width: 50px;
+	}
+	.auto-fold #adminmenu .wp-submenu{
+		left: 50px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2.auto-fold div.wp-menu-image::before{
+		padding: 3px 0;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3.auto-fold .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-4.auto-fold .eat-admin-logo{
+		background: transparent;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3.auto-fold div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-4.auto-fold div.wp-menu-image::before{
+		padding: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2.auto-fold #wpwrap{
+		margin-top: 50px;
+	}
+	.eat-admin-main-wrapper .eat-display-settings-wrap .eat-settings-submit input.eat-button{
+		font-size: 12px;
+	}
+	
+}
+@media only screen and (max-width: 768px) {
+	#adminmenu .wp-submenu{
+		margin-top: 0px !important;
+		left: 0px !important;
+		top: 0px !important;
+	}
+	#wp-admin-bar-my-account.with-avatar > .ab-item{
+		visibility: collapse !important;
+	}
+	#wp-admin-bar-my-account.with-avatar > .ab-item img{
+		visibility: visible !important;
+	}
+	.eat-body-class-wrap #wpcontent {
+		margin-left: 0px;
+	}
+	.eat-dashboard-temp-1 #wpbody{
+		padding: 0px 0px 10px 10px;
+	}
+	.folded .wp-menu-name{
+		display: none;
+	}
+	.folded #adminmenu a.menu-top:focus + .wp-submenu{
+		left: 0px !important;
+	}
+	.auto-fold #adminmenu li a {
+		font-size: 14px;
+	}
+	.eat-admin-main-wrapper .eat-header-wrapper .eat-headerlogo span.eat-headerlogo{
+		font-size: 22px !important;
+	}
+	.eat-social-btns{
+		text-align: right;
+	}
+	.eat-admin-main-wrapper{
+		margin-right: 10px;
+	}
+	.eat-image-preview img{
+		max-width: 150px;
+	}
+	.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap > label{
+		font-size: 12px;
+		margin-bottom: 5px;
+	}
+	.wp-core-ui .quicktags-toolbar input.button.button-small{
+		width: auto;
+		padding: 0px 10px 0px;
+		font-size: 11px;
+		height: auto;
+	}
+	.mce-toolbar .mce-btn i{
+		font-size: 15px;
+	}
+	#wpadminbar .quicklinks ul{
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	.eat-admin-main-wrapper .eat-display-settings-wrap .eat-settings-submit input.eat-button{
+		width: 100%;
+		margin: 1px 0px;
+		padding: 10px;
+		height: 48px;
+		font-size: 12px;
+	}
+	div.wp-menu-image::before{
+		padding: 3px 0px;
+	}
+	#adminmenu a.menu-top{
+		line-height: 10px;
+	}
+	#adminmenuwrap .eat-admin-logo{
+		max-width: 50px;
+		padding: 12px 0px 0px 7px;
+		border: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu .wp-menu-name, 
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu .wp-menu-name,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu .wp-menu-name{
+		position: static;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu li.menu-top, 
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu li.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu li.menu-top{
+		min-height: 40px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu li a, 
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu li a,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu li a{
+		min-height: 40px;
+		line-height: 15px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu li a.menu-top, 
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu li a.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu li a.menu-top{
+		height: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu .update-plugins,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu .update-plugins{
+		margin-top: -5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu ul.wp-submenu li > a{
+		padding: 18px 20px 10px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu div.wp-menu-image::before{
+		padding: 5px 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenuwrap .eat-admin-logo{
+	    max-width: 50px;
+	    padding: 17px 4px 8px 5px;
+	    border: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #wpadminbar ul#wp-admin-bar-root-default > li{
+		margin-top: -8px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		top: 0px;
+		left: 6px;
+		margin-top: 0px;
+	}
+	#wpadminbar .ab-top-menu, #wpadminbar .ab-top-secondary{
+		margin-top: 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon::before{
+		color: #000;
+		top: 3px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #wpadminbar,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #wpadminbar{
+		height: 46px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar{
+		height: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #wpadminbar #wp-admin-bar-my-account > .ab-item{
+		height: 43px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #wpadminbar .menupop .ab-sub-wrapper{
+		margin-top: -5px;
+	}
+	#wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper .ab-item{
+		font-size: 13px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-1 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenuwrap .eat-admin-logo{
+		max-width: 100px;
+		width: 80px;
+		margin: 10px auto;
+		padding: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-1 #adminmenu .wp-has-submenu .wp-submenu a{
+		padding-left: 40px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-1.auto-fold #adminmenu,
+	.eat-body-class-wrap.eat-dashboard-temp-2.auto-fold #adminmenu,
+	.eat-body-class-wrap.eat-dashboard-temp-4.auto-fold #adminmenu{
+		top: 65px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-1.auto-fold #adminmenu a.menu-top{
+		height: 45px;
+	}
+	.auto-fold #adminmenu .wp-submenu{
+		position: relative;
+		top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu .wp-has-current-submenu.opensub .wp-submenu li.current a, 
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu .wp-submenu li.current a, 
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu a.wp-has-current-submenu:focus + .wp-submenu li.current a, 
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu .wp-has-current-submenu .wp-submenu a, 
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu .wp-has-current-submenu.opensub .wp-submenu a, 
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu .wp-submenu a, 
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu a.wp-has-current-submenu:focus + .wp-submenu a, 
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu .wp-has-current-submenu .wp-submenu a{
+		padding: 12px 50px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-1.eat-admin-bar-fixed #wpwrap{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-1 #adminmenu .wp-has-current-submenu .wp-submenu{
+		min-width: 215px;
+	}
+	.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a{
+		margin-left: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-1 #adminmenu  .wp-submenu,
+	.eat-body-class-wrap.eat-dashboard-temp-1 #adminmenu .wp-has-current-submenu .wp-submenu{
+		background: #0289ff !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2.eat-admin-bar-fixed #wpwrap{
+		margin-top: 46px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu li.menu-top ul.wp-submenu li > a, 
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu li.opensub ul.wp-submenu li > a{
+		padding: 12px 45px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu li > a.menu-top:focus{
+		background: rgba(0,0,0,0.2);
+	}
+	#wp-admin-bar-my-account.with-avatar > .ab-item{
+		visibility: collapse;
+	}
+	#wp-admin-bar-my-account.with-avatar > .ab-item img{
+		visibility: visible;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar .quicklinks > ul > li > a {
+	    padding: 6px 5px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		top: 8px;
+		left: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar #wp-admin-bar-my-account > .ab-item{
+		height: 38px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3.eat-admin-bar-fixed #wpwrap{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3.auto-fold #adminmenu{
+		top: 2px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu .wp-submenu{
+		padding: 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu li.menu-top ul.wp-submenu li > a{
+		padding: 12px 45px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenuback{
+		box-shadow: none;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-4.auto-fold #adminmenu div.wp-menu-name{
+		padding-left: 0px;
+		margin-left: 10px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu .wp-has-current-submenu .wp-submenu, 
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu .opensub .wp-submenu{
+		padding: 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu li.wp-has-current-submenu ul.wp-submenu li > a{
+		padding-left: 22px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-4.eat-admin-bar-fixed #wpwrap{
+		margin-top: 46px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-4 #wpadminbar .quicklinks > ul > li > a{
+		padding: 9px 5px 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-4 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		top: 8px;
+		left: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-4.auto-fold #adminmenu .selected .wp-submenu, 
+	.eat-body-class-wrap.eat-dashboard-temp-4.auto-fold #adminmenu .wp-menu-open .wp-submenu{
+		position: relative !important;
+		top: 0px !important;
+	}
+}
+@media only screen and (max-width: 600px) {
+	#wpbody{
+		padding-top: 5px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-tab-content-header-title{
+		font-size: 18px;
+	}
+	.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbHolder, .eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbOptions{
+		width: 190px;
+	}
+	.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header ul.eat-tabs-wrap li{
+		padding: 10px 15px;
+		font-size: 12px;
+	}
+	
+	.eat-social-btns iframe:nth-of-type(1){
+		margin: 0px;
+		margin-bottom: 2px;
+		float: right;
+	}
+	#twitter-widget-0{
+		margin: 0px;
+		float: right;
+	}
+	.eat-admin-main-wrapper .eat-tabs-content-wrap input{
+		width: 100%;
+		font-size: 12px;
+	}
+	.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .eat-button{
+		padding: 7px 10px;
+		font-size: 13px;
+		margin-top: 5px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.eat-admin-main-wrapper .eat-display-settings-wrap .eat-settings-submit input.eat-button{
+		padding: 6px 0px;
+		height: 34px;
+	}
+}
