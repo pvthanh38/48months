@@ -30,6 +30,7 @@ $count = $my_query->post_count;
 <style>
 .filter_div{ margin-bottom: 30px;display: block;}
 </style>
+<link rel="stylesheet" id="wp-social-sharing-css" href="<?php echo get_site_url(); ?>/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.0.6/css/fontawesome-all.min.css?ver=5.3.2" type="text/css" media="all">
 <div class="main">
 
     <section class="main-content">
