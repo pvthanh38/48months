@@ -1,12 +1,10 @@
-
 # BEGIN WordPress
-<IfModule mod_rewrite.c>
+
 RewriteEngine On
-RewriteBase /wp/48months/
+RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /wp/48months/index.php [L]
-</IfModule>
+RewriteRule . /index.php [L]
 
 # END WordPress
