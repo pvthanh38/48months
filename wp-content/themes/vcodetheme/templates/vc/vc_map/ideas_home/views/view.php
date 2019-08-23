@@ -15,7 +15,6 @@ $my_query = new WP_Query($args);
 $count = $my_query->post_count;
 ?>
 <div class="main">
-
     <section class="main-content">
         <div class="container">
             <h2 class="title-heading">Idea <span>Testimonials from Beneficiaries of flagship Government schemes</span></h2>

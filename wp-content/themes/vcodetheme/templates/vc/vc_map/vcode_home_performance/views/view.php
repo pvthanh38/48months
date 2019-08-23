@@ -1,4 +1,3 @@
-<!--Performance Dashboard Open-->
 <style>
 .filter_div{ margin-bottom: 100px;display: block;}
 .filter{color: #fff !important;}

@@ -1,4 +1,3 @@
-<!--Performance Dashboard Open-->
 <?php
 if(is_user_logged_in()){
 $number_item = 100;
