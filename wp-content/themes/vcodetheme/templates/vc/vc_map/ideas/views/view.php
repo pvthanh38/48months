@@ -1,4 +1,5 @@
 <?php 
+
 $uri_parts = explode('?', $_SERVER['REQUEST_URI'], 2);
 $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}{$uri_parts[0]}";
 $oderby = 'DESC';
@@ -102,6 +103,7 @@ body .gform_wrapper ul li.gfield {
     margin-top: 0 !important;     padding-top: !important; }
 }
 </style>
+<link rel="stylesheet" id="wp-social-sharing-css" href="<?php echo get_site_url(); ?>/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.0.6/css/fontawesome-all.min.css?ver=5.3.2" type="text/css" media="all">
 <div class="over-black"></div>
 <div class="popup">
 <?php 
@@ -125,9 +127,15 @@ echo do_shortcode('[gravityform id=1 title=false description=false ajax=true tab
 			</div>
 			<div class="wp-pagenavi filter_div">
 				<div class="pagination">
-					<a class="filter" href="?f=new">Newest</a>
-					<a class="filter" href="?f=old">Oldest</a>
-					<a class="filter" href="?f=vote">Vote</a>
+
+					<div class="wpdiscuz-sort-buttons" style="font-size:14px; color: #777;">
+						<i class="fas fa-caret-up" aria-hidden="true"></i>
+						<a class="wpdiscuz-sort-button wpdiscuz-vote-sort-up" href="?f=new">Newest</a> 
+						<i class="fas fa-caret-up" aria-hidden="true"></i>
+						<a class="wpdiscuz-sort-button wpdiscuz-vote-sort-up" href="?f=old">Oldest</a>
+						<i class="fas fa-caret-up" aria-hidden="true"></i> 
+						<a class="wpdiscuz-sort-button wpdiscuz-vote-sort-up" href="?f=vote">Vote</a>
+					</div>
 				</div>
 				
 				

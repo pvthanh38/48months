@@ -1,24 +1,31 @@
+<!--Performance Dashboard Open-->
 <?php
 if(is_user_logged_in()){
 $number_item = 100;
 if(isset($atts['number_item'])){$number_item = $atts['number_item'];}
 ?>
 <style>
-.filter_div{ margin-bottom: 100px;display: block;}
+.filter_div{ margin-bottom: 20px;display: block;}
 .filter{color: #fff !important;}
 @media (min-width: 320px) and (max-width: 480px) {
   .filter{width: 155px !important;}
-  
+  .filter_div{ margin-bottom: 20px;display: block;}
 }
+.performance-block h2{margin-bottom: 0px;}
 </style>
+<link rel="stylesheet" id="wp-social-sharing-css" href="<?php echo get_site_url(); ?>/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.0.6/css/fontawesome-all.min.css?ver=5.3.2" type="text/css" media="all">
 <section class="performance-block" id="my-dashboard">
     <div class="container">
         <h2 class="title-heading"><?php echo $atts['title']; ?> <span><?php echo $atts['subtitle']; ?></span></h2>
 		<div class="wp-pagenavi filter_div">
 			<div class="pagination">
-				<a class="filter" href="?f=new#my-dashboard">Newest</a>
-				<a class="filter" href="?f=old#my-dashboard">Oldest</a>
-				
+				<div class="wpdiscuz-sort-buttons" style="font-size:14px; color: #777;">
+						<i class="fas fa-caret-up" aria-hidden="true" style="color: #fff;"></i>
+						<a class="wpdiscuz-sort-button wpdiscuz-vote-sort-up" href="?f=new#my-dashboard" style="color: #fff;">Newest</a> 
+						<i class="fas fa-caret-up" aria-hidden="true" style="color: #fff;"></i>
+						<a class="wpdiscuz-sort-button wpdiscuz-vote-sort-up" href="?f=old#my-dashboard" style="color: #fff;">Oldest</a>
+						
+					</div>
 			</div>
 			
 			

@@ -3,8 +3,21 @@ $number_item = 20;
 if(isset($atts['number_item'])){$number_item = $atts['number_item'];}
 $uri_parts = explode('?', $_SERVER['REQUEST_URI'], 2);
 $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}{$uri_parts[0]}";
+$oderby = 'DESC';
+if(isset($_GET['f'])){
+	if($_GET['f'] == 'new'){
+		$oderby = 'DESC';
+	}
+	if($_GET['f'] == 'old'){
+		$oderby = 'ASC';
+	}
+	if($_GET['f'] == 'vote'){
+		$oderby = 'DESC';
+	}
+}
 $args = array(
 	'posts_per_page'   => $number_item,
+	'order' => $oderby,
 	'post_type' => 'ideas',
 );
 
@@ -14,11 +27,31 @@ if(isset($_GET['pag'])){
 $my_query = new WP_Query($args);
 $count = $my_query->post_count;
 ?>
+<style>
+.filter_div{ margin-bottom: 30px;display: block;}
+</style>
 <div class="main">
+
     <section class="main-content">
         <div class="container">
             <h2 class="title-heading">Idea <span>Testimonials from Beneficiaries of flagship Government schemes</span></h2>
-            <div class="voice-slider">
+            <div class="wp-pagenavi filter_div">
+				<div class="pagination">
+
+					<div class="wpdiscuz-sort-buttons" style="font-size:14px; color: #777;">
+						<i class="fas fa-caret-up" aria-hidden="true"></i>
+						<a class="wpdiscuz-sort-button wpdiscuz-vote-sort-up" href="?f=new">Newest</a> 
+						<i class="fas fa-caret-up" aria-hidden="true"></i>
+						<a class="wpdiscuz-sort-button wpdiscuz-vote-sort-up" href="?f=old">Oldest</a>
+						<i class="fas fa-caret-up" aria-hidden="true"></i> 
+						<a class="wpdiscuz-sort-button wpdiscuz-vote-sort-up" href="?f=vote">Vote</a>
+					</div>
+				</div>
+				
+				
+			</div>
+			<div style="clear: both;"></div>
+			<div class="voice-slider">
                 <div class="row">
 				<?php if( $my_query->have_posts() ) {
 					$arr = [];
