@@ -125,6 +125,7 @@ echo do_shortcode('[gravityform id=1 title=false description=false ajax=true tab
 				
 				
 			</div>
+			<?php } ?>
 			<div class="wp-pagenavi filter_div">
 				<div class="pagination">
 
@@ -143,7 +144,7 @@ echo do_shortcode('[gravityform id=1 title=false description=false ajax=true tab
 			<div style="clear: both;"></div>
 			<br/>
 			<br/>
-				<?php } ?>
+				
 			<div class="voice-slider">
                 <div class="row">
 				<?php if( $my_query->have_posts() ) {
