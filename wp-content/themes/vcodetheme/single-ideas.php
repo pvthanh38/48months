@@ -46,6 +46,8 @@
         </div>
     </section>
 </div>
-
+<script>
+jQuery("#wc-comment-header").text('Contribute an Idea');
+</script>
 <?php get_footer();
 wp_footer(); ?>
