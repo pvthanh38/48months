@@ -135,9 +135,17 @@ function css_admin() {
 			#wp-admin-bar-new-content{display:none;}
 			#toplevel_page_theme-general-settings{display:none;}
 			#toplevel_page_vc-welcome{display:none;}
+			
 			</style>
+			
 			<?php
 		}
+		?>
+		<script>
+			setTimeout(function(){ jQuery('#authordiv h2 span').text("User"); }, 3000);
+			
+			</script>
+		<?php
 	}
 }
 add_action( 'admin_head', 'css_admin' );
